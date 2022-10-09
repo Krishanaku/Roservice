@@ -1,0 +1,60 @@
+.Banner {
+  background-image: url("https://i.ibb.co/wWsJhY0/ro-water-purifier-banner.webp");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 542px;
+  width: 100%;
+  top: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Bannermob{
+  display: none;
+}
+.box {
+  color: white;
+  width: 50%;
+
+}
+.box1{
+  color: white;
+  width: 50%;
+  margin-top: 60px;
+  align-items: flex-start;
+  text-align: left;
+}
+.box4 {
+  color: black;
+  height: 148px;
+  width: 318px;
+  padding: 40px;
+  
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px){
+  .Banner{
+    background-image: url("https://i.ibb.co/HBHBR6t/ro-water-purifier-mobile-banner.webp");
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box1{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+}
+

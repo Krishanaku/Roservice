@@ -1,0 +1,48 @@
+.service {
+  height: 53.279815673828125px;
+   width: 185px;
+  
+  
+  border-radius: 4.243119239807129px;
+  color: white;
+  border: 1px solid white;
+}
+.icons{
+  
+  display: flex;
+  align-items: flex-end;
+  margin-left: 20px;
+ 
+}
+/* .navbar-brand{
+  display: none;
+}
+@media only screen and (max-width: 600px){
+  .navbar-brand{
+    display: flex;
+    text-align: center;
+
+  }
+
+} */
+
+
+.collapse a {
+  font-size: 15px;
+
+}
+.navbar-brand{
+  font-size: 18px;
+}
+.whatsapp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+
+}
+.whatsappicon{
+  /* font-size: 0px; */
+  color: white;
+}

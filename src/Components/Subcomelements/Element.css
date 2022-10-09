@@ -1,0 +1,17 @@
+
+.mobimagebox{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .mobimagebox{
+        display:block;
+        width: 100%;
+    }
+    .webImageBox{
+        display: none;
+    }
+    .boxes{
+        margin-top: 20px;
+    }
+
+}
